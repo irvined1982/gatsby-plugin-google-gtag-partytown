@@ -1,7 +1,7 @@
 {
   "name": "gatsby-plugin-google-gtag-partytown",
   "description": "Gatsby plugin to add google gtag onto a site using partytown",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "David Irvine <irvined@gmail.com>",
   "bugs": {
     "url": "https://github.com/irvined1982/gatsby-plugin-google-gtag-partytown/issues"

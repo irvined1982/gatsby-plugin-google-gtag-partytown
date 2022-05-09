@@ -1,6 +1,5 @@
 import React from "react"
 import { Minimatch } from "minimatch"
-import { Partytown } from '@builder.io/partytown/react';
 
 exports.onRenderBody = (
   { setHeadComponents, setPostBodyComponents },
@@ -73,7 +72,7 @@ exports.onRenderBody = (
       `
 
   return setComponents([
-    <Partytown key="partytown-gtag" forward={['gtag']} />,
+
     <script
       type="text/partytown"
       key={`gatsby-plugin-google-gtag-partytown`}
