@@ -1,0 +1,46 @@
+{
+  "name": "gatsby-plugin-google-gtag-partytown",
+  "description": "Gatsby plugin to add google gtag onto a site using partytown",
+  "version": "1.0.0",
+  "author": "David Irvine <irvined@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/irvined1982/gatsby-plugin-google-gtag-partytown/issues"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.15.4",
+    "minimatch": "^3.1.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "babel-preset-gatsby-package": "^2.15.0-next.0",
+    "cross-env": "^7.0.3"
+  },
+  "homepage": "https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-google-gtag#readme",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "google gtag",
+    "google global site tag"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "@builder.io/partytown": "^0.5.4",
+    "gatsby": "^4.0.0-next",
+    "react": "^16.9.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.9.0 || ^17.0.0 || ^18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:irvined1982/gatsby-plugin-google-gtag-partytown.git"
+  },
+  "scripts": {
+    "build": "babel src --out-dir . --ignore \"**/__tests__\"",
+    "prepare": "cross-env NODE_ENV=production npm run build",
+    "watch": "babel -w src --out-dir . --ignore \"**/__tests__\""
+  },
+  "engines": {
+    "node": ">=14.15.0"
+  }
+}
